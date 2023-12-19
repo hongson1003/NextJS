@@ -1,0 +1,36 @@
+.inputTable {
+    body {
+        font-family: Arial, sans-serif;
+    }
+
+    table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-bottom: 20px;
+    }
+
+    thead {
+        background-color: #333;
+        text-align: center;
+    }
+
+    th,
+    td {
+        border: 1px solid #ddd;
+        padding: 8px;
+        text-align: center;
+    }
+
+    th {
+        background-color: #4caf50;
+        color: white;
+        width: 18%;
+        &:last-child {
+            background-color: transparent;
+        }
+    }
+
+    tbody tr:nth-child(even) {
+        background-color: violet;
+    }
+}
